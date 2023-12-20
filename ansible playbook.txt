@@ -1,0 +1,11 @@
+---
+-name:example playbook with vault
+hosts:webservers
+vars-files:
+  -secret_vars.yml
+
+
+tasks:
+  -name:display secret variable
+debug:
+  msg: "the secret is {{my_secret}}"
