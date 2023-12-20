@@ -9,3 +9,4 @@ tasks:
   -name:display secret variable
 debug:
   msg: "the secret is {{my_secret}}" what the f
+pls push to jenkins
