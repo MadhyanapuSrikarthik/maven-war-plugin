@@ -8,4 +8,4 @@ vars-files:
 tasks:
   -name:display secret variable
 debug:
-  msg: "the secret is {{my_secret}}"
+  msg: "the secret is {{my_secret}}" what the f
